@@ -1,0 +1,7 @@
+.copyright{
+    background-color: var(--mainBG);
+    text-align: center;
+    line-height: 2.5;
+    font-weight: 600;
+    font-style: italic;
+}

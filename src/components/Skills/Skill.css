@@ -1,0 +1,32 @@
+.row-container {
+    background-color: var(--mainBG);
+    padding: var(--main-padding);
+    border-radius: 10px;
+}
+
+.skill-section {
+    background-image: url(../../Assets/images/Hero-Section.jpg);
+    background-position: top;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-weight: 600;
+}
+
+.skill-box {
+    border-radius: 10px;
+    border: 2px solid var(--mainColor);
+    text-align: center;
+    padding: 5px 10px;
+    margin: 5px;
+    color: var(--mainColor);
+}
+.skill-box h4 i {
+    color: #000;
+    font-size: 45px;
+}
+/* ....Stars */
+.star i{
+    color:#000;
+    font-size: 30px;
+}

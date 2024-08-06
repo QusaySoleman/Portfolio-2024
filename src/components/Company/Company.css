@@ -1,0 +1,40 @@
+
+.company-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--mainColor);
+
+}
+.about-company{
+    background-color: rgba(14, 14, 34, 0.418);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    transition: all .3s ease;
+    top:-100%;
+}
+.about-company::after{
+    content: 'About Company';
+}
+
+.company-box {
+    padding: 10px;
+    margin: 15px 10px;
+    position: relative; 
+    overflow: hidden;
+    cursor: pointer;
+}
+.company-box:hover .about-company{
+    top: 0;
+}
+.company-box{
+    object-fit: fill;
+    min-height: 200px;
+}
