@@ -1,6 +1,5 @@
 {
-  "name": "my-app",
-  "homepage": "https://QusaySoleman.github.io/Qusay-Soleman-Portfolio ",
+  "name": "qusay-portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
