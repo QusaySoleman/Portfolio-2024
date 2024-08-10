@@ -1,9 +1,8 @@
 .hero-section {
-    background-color: var(--mainBG);
+    background-color: #fff;
     color: var(--mainColor);
     font-weight: 600;
-    padding-top: 25px;
-    
+    padding-top: 25px;    
 }
 
 .hero-content {
@@ -28,7 +27,18 @@
 
 .img-box img {
     border-radius: 5px;
-    max-height: 300px;
+    border-top:2px solid black;
+    border-left:2px solid black;
+    max-height: 350px;
+    margin: 20px 0;
+    opacity: .8;
+    transition: all 0.6s ease;
+}
+.img-box img:hover{
+    cursor: pointer;
+    transform: translateY(10px) rotate(-2deg);
+    opacity: 1;
+    
 }
 
 .img-box button{

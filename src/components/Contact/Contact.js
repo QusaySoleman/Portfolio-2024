@@ -20,7 +20,7 @@ function Contact() {
               </a>
             </div>
             <div className="icon-box">
-              <a href="#" target="blank" title="Linkedin">
+              <a href="https://www.linkedin.com/in/qusay-mheo-838205317/" target="blank" title="Linkedin">
                 <i className="bi bi-linkedin"></i>
               </a>
             </div>

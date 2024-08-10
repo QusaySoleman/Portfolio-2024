@@ -1,6 +1,6 @@
 import React from "react";
 import "./Hero.css";
-import QusayImg from "../../Assets/images/Qusay.png";
+import QusayImg from "../../Assets/images/Qusay.jpeg";
 // import portfolioImg from "../../Assets/images/portfolio.jpg";
 function Hero() {
   return (
@@ -31,7 +31,7 @@ function Hero() {
           <div className="col-md-5 col-sm-12 col-xs-12 self-introduction p-5">
             Hi There, I’m Qusay from Syria.
             <br />
-            I'm working as a Front-End Web Developer since 2 years . <br /> I
+            I'm working as a Front-End Web Developer since 2 years. <br /> I
             have developed many websites and I have been a part of some very
             good web design projects at Darrebni Company .
             <br />
